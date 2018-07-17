@@ -1,0 +1,61 @@
+{
+  "type": "scene",
+  "properties": {
+    "height": 68.95893027698185,
+    "width": 100.0,
+    "baseExtent": [
+      12459838.769924043,
+      1633743.0763553195,
+      14483198.546892786,
+      3029030.3342076903
+    ],
+    "crs": "EPSG:3857",
+    "proj": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+    "rotation": 0,
+    "wgs84Center": {
+      "lat": 20.49182862338265,
+      "lon": 121.0167111114959
+    },
+    "zExaggeration": 5.0,
+    "zShift": 0.0
+  },
+  "layers": [
+    {
+      "type": "layer",
+      "id": 267,
+      "properties": {
+        "name": "GEBCO2014_90.0971_0.4854_134.7573_45.1456_30Sec_Geotiff",
+        "queryable": 1,
+        "visible": true,
+        "type": "dem",
+        "shading": true
+      },
+      "data": [
+        {
+          "type": "block",
+          "layer": 267,
+          "block": 0,
+          "grid": {
+            "width": 723,
+            "height": 499,
+            "url": "./data/taiwan/L0_DEM0.bin"
+          },
+          "width": 100.0,
+          "height": 68.95893027698185,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "material": {
+            "type": 0,
+            "image": {
+              "url": "./data/taiwan/L0_IMG0.png"
+            },
+            "ds": 1
+          }
+        }
+      ]
+    }
+  ]
+}
